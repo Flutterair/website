@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "SATOSHILIGHT";
+    src: url("../public/Fonts/Satoshi-Light.ttf");
+  }
+
+  @font-face {
+    font-family: "SATOSHIREGULAR";
+    src: url("../public/Fonts/Satoshi-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "SATOSHIMEDIUM";
+    src: url("../public/Fonts/Satoshi-Medium.ttf");
+  }
+
+  @font-face {
+    font-family: "SATOSHIBOLD";
+    src: url("../public/Fonts/Satoshi-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "SATOSHIBLACK";
+    src: url("../public/Fonts/Satoshi-Black.ttf");
+  }

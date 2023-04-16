@@ -1,10 +1,14 @@
+import React from "react";
+import Navbar from "./Components/Navigation/Navbar";
+import Hero from "./Components/Sections/Hero";
+import Three from "./Components/Sections/Three";
 
-function App() {
+export default function App() {
   return (
     <div className="">
-     <h1>Flutterair</h1>
+      <Navbar />
+      <Hero />
+      <Three />
     </div>
   );
 }
-
-export default App;
