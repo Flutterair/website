@@ -1,14 +1,15 @@
 import React from "react";
 import Navbar from "./Components/Navigation/Navbar";
-import Hero from "./Components/Sections/Hero";
-import Three from "./Components/Sections/Three";
+import Footer from "./Components/Sections/Footer";
+import LandingPage from "./Components/Pages/LandingPage";
+import Layout from "./Components/Navigation/Layout";
 
 export default function App() {
   return (
     <div className="">
       <Navbar />
-      <Hero />
-      <Three />
+        <Layout/>
+      <Footer/>
     </div>
   );
 }
