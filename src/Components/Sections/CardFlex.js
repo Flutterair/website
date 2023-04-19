@@ -6,8 +6,8 @@ import compliance from "../../Assets/compliance.png";
 export default function CardFlex() {
   return (
     <div>
-      <div className="flex space-x-10 items-center mx-32 mt-20 mb-10">
-        <div className="w-[50%] bg-[#EFF1F7] rounded-lg py-4 px-4">
+      <div className="md:flex md:space-x-10 items-center md:mx-32 mx-4 md:space-y-0 space-y-4 mt-20 mb-10">
+        <div className="md:w-[50%] bg-[#EFF1F7] rounded-lg py-4 px-4">
           <h1 className="font-satoshibold md:text-base text-sm text-black mt-4">
             Gain access to international business accounts
           </h1>
@@ -29,7 +29,7 @@ export default function CardFlex() {
             />
           </div>
         </div>
-        <div className="w-[50%] bg-[#EFF1F7] rounded-lg py-4 px-4">
+        <div className="md:w-[50%] bg-[#EFF1F7] rounded-lg py-4 px-4">
           <h1 className="font-satoshibold md:text-base text-sm text-black mt-4">
             Stay on top of legal and regulatory requirements
           </h1>

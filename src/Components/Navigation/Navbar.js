@@ -42,7 +42,9 @@ export default function Navbar() {
           </h1>
           <div className="rounded-full py-3 md:px-12 px-6 cursor-pointer bg-[#fff] md:flex hidden">
             <h1 className="font-satoshibold md:text-sm text-xs text-black">
+              <Link  to="/createaccount">
               Get Started
+              </Link>
             </h1>
           </div>
           <div
