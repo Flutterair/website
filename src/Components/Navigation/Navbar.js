@@ -38,15 +38,16 @@ export default function Navbar() {
         </div>
         <div className="flex items-center md:space-x-8 space-x-3">
           <h1 className="font-satoshimedium text-sm text-white cursor-pointer md:flex hidden">
-            Sign In
+            <Link to={"/admin.dashboard/signin"}>
+            Sign In</Link>
           </h1>
+          <a href="https://appflutterair.netlify.app/" target="blank">
           <div className="rounded-full py-3 md:px-12 px-6 cursor-pointer bg-[#fff] md:flex hidden">
             <h1 className="font-satoshibold md:text-sm text-xs text-black">
-              <Link  to="/createaccount">
-              Get Started
-              </Link>
+             Get Started
             </h1>
           </div>
+          </a>
           <div
             className="flex md:hidden cursor-pointer"
             onClick={() => setopen(!open)}

@@ -22,14 +22,18 @@ export default function Hero() {
               tools that offer endless possibilities for your business.
             </h1>
             <div className="flex items-center md:space-x-8 mt-10 space-x-4">
-              <div className=" rounded-full py-3 md:px-12 px-4 cursor-pointer bg-[#fff] inline-block">
-                <h1 className="font-satoshibold text-xs text-black">
-                  Launch my business
+              <a href="https://appflutterair.netlify.app/" target="blank">
+                <div className=" rounded-full py-3 md:px-12 px-4 cursor-pointer bg-[#fff] inline-block">
+                  <h1 className="font-satoshibold text-xs text-black">
+                    Launch my business
+                  </h1>
+                </div>
+              </a>
+              <a href="https://appflutterair.netlify.app/" target="blank">
+                <h1 className="font-satoshimedium text-xs text-white cursor-pointer">
+                  Already Incorporated ?
                 </h1>
-              </div>
-              <h1 className="font-satoshimedium text-xs text-white cursor-pointer">
-                Already Incorporated ?
-              </h1>
+              </a>
             </div>
           </div>
           <div>
